@@ -1,0 +1,55 @@
+/* CSS untuk tampilan dasar */
+body {
+    font-family: Georgia, Times;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* CSS khusus untuk halaman koleksi.html */
+  main ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* CSS khusus untuk halaman detail.html */
+  main div {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
